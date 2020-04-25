@@ -26,7 +26,9 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 
 /**
- * http://www.jsonschema2pojo.org/ を利用して生成。
+ * User 情報を蓄えるための Java Bean。
+ * 
+ * このクラスは http://www.jsonschema2pojo.org/ を利用して自動生成されたものです。
  * 
  * @author Toshiki Iga
  */
@@ -81,5 +83,4 @@ public class JsonUser {
     public void setAdditionalProperty(String name, Object value) {
         this.additionalProperties.put(name, value);
     }
-
 }

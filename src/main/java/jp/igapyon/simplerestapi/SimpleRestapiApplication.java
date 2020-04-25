@@ -18,6 +18,11 @@ package jp.igapyon.simplerestapi;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+/**
+ * Spring Web のエントリポイント。
+ * 
+ * @author Toshiki Iga
+ */
 @SpringBootApplication
 public class SimpleRestapiApplication {
     public static void main(String[] args) {
